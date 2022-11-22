@@ -1,0 +1,33 @@
+.footer {
+    display: flex;
+    justify-content: center;
+}
+.footer-div {
+    margin-right: 4rem;
+    margin-left: 2rem;
+}
+.footer-div > p{
+    margin: 0;
+    margin-top: 0.5rem;
+}
+.footer-div > h5 {
+    color: #6D737A;
+    font-weight: 400;
+    font-size: 14px;
+}
+.footer-logo {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.footer-call {
+    color: #6D737A;
+}
+.footer-contact-us {
+    margin: 0;
+}
+.footer-icon {
+    margin-top: 2rem;
+}
+.footer-icon > img {
+    margin-right: 1rem;
+}
