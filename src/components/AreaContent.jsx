@@ -12,6 +12,7 @@ const AreaContent = (props) => {
     >
       <h4>{props.item.city}</h4>
       <p>{props.item.listing}</p>
+      <button className="view-details">View Details</button>
       <img src={Location} className="location-icon" />
     </div>
   );

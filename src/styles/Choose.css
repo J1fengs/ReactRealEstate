@@ -47,6 +47,9 @@
     font-size: 14px;
     line-height: 24px;
 }
+.read-more:hover {
+    color: #6d8be5;
+}
 .menu-div{
     padding-left: 1.3rem;
     padding-top: 0.5rem;
@@ -55,4 +58,5 @@
 }
 .menu-div:hover {
     background-color: white;
+    cursor: pointer;
 }

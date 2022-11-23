@@ -22,7 +22,7 @@ const LatestContent = (props) => {
         <p>{props.item.large} ft</p>
       </div>
       <div className="seller-div">
-        <img src={props.item.sellerIcon} />
+        <img src={props.item.sellerIcon} className="seller-profile-pic" />
         <p>{props.item.sellerName}</p>
         <img src={ShareIcon} className="seller-icon" />
         <img src={HeartIcon} className="seller-icon" />

@@ -31,6 +31,11 @@
 }
 .area-content-div {
     position: relative;
+    transition: 0.3s;
+}
+.area-content-div:hover {
+    cursor: pointer;
+    opacity: 80%;
 }
 .area-content-div > h4{
     margin: 0;
@@ -50,4 +55,20 @@
     position: absolute;
     bottom: 1.5rem;
     left: 1.5rem;
+}
+.view-details {
+    position: absolute;
+    border: 1px solid #EDEFF6;
+    border-radius: 4px;
+    padding: 8px 18px;
+    color: #FFFFFF;
+    background: none;
+    top: 50%;
+    left: 37%;
+    transition: 0.3s;
+    opacity: 0%;
+}
+.view-details:hover {
+    cursor: pointer;
+    opacity: 100%;
 }

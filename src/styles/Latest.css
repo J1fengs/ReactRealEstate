@@ -27,10 +27,20 @@
 }
 .latest-content-div > h4 {
     margin-left: 16px;
+    transition: 0.3s;
+}
+.latest-content-div > h4:hover {
+    cursor: pointer;
+    opacity: 60%;
 }
 .content-img {
     height: 200px;
     width: 300px;
+    transition: 0.3s;
+}
+.content-img:hover {
+    cursor: pointer;
+    opacity: 80%;
 }
 .details-div {
     display: flex;
@@ -55,7 +65,6 @@
 .seller-div > img {
     height: 30px;
     margin-right: 9px;
-    background: #EDEFF6;
     border-radius: 2px;
 }
 .seller-div > p {
@@ -69,6 +78,19 @@
     color: #4A60A1;
     margin-left: 16px;
 }
+.seller-profile-pic {
+    transition: 0.3s;
+}
+.seller-profile-pic:hover {
+    cursor: pointer;
+    opacity: 60%;
+}
 .seller-icon {
     max-height: 20px;
+    transition: 0.3s;
+    background: #EDEFF6;
+}
+.seller-icon:hover {
+    cursor: pointer;
+    background-color: #c1ccd7;
 }

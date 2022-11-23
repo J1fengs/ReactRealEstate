@@ -14,6 +14,11 @@
     color: #6D737A;
     font-weight: 400;
     font-size: 14px;
+    transition: 0.3s;
+}
+.footer-div > h5:hover {
+    cursor: pointer;
+    color: #a9b4c4;
 }
 .footer-logo {
     margin-top: 1rem;
@@ -30,4 +35,9 @@
 }
 .footer-icon > img {
     margin-right: 1rem;
+    transition: 0.3s;
+}
+.footer-icon > img:hover {
+    cursor: pointer;
+    opacity: 60%;
 }
