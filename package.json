@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "homepage": "http://J1fengs.github.io/ReactRealEstate",
+    "homepage": "http://j1fengs.github.io/ReactRealEstate",
     "predeploy" : "npm run build",
     "deploy" : "gh-pages -d build"
   },
